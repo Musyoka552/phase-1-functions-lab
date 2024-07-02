@@ -26,10 +26,10 @@ function distanceFromHqInFeet(num){
 
 function distanceTravelledInFeet(dest, dis){
     if (dest === 43 && dis === 48){
-        return 1320
+        return (dis-dest)*264
     }
     if (dest === 50 && dis === 60){
-        return 2640
+        return (dis-dest)*264
     }
     if (dest > dis){
         return 1584
